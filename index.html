@@ -89,21 +89,77 @@
 
     <section id="contact" class="section contact">
       <p class="section-label">Booking</p>
-      <h2>Let’s create your henna look</h2>
-      <p>Send your event date, location, service type, number of people, and any reference photos you like.</p>
-      <div class="contact-actions">
-        <a class="button primary" href="https://wa.me/18329568553" target="_blank" rel="noreferrer">Book on WhatsApp</a>
-        <a class="button secondary" href="mailto:janismaknojia@gmail.com?subject=Henna%20 Portfolio%20Request">Request Portfolio</a>        
-        <a class="button secondary" href="mailto:janismaknojia@gmail.com">Email Me</a>
-      </div>
-      <p class="small note">
-      Send your event date, location, service type, number of people, and any reference photos. My portfolio is available upon request.
-</p> 
-     <p class="small note">
-       WhatsApp: 832-956-8553<br>
-       E-mail: janismaknojia@gmail.com
-</p>
-    </section>
+      <h2>Request a Henna Booking</h2>
+  <p>
+    Please fill out the form below with your event details. I will review your request and get back to you with availability, pricing, and next steps.
+  </p>
+
+  <form class="booking-form" action="https://formspree.io/f/xeebqwjq" method="POST">
+    <div class="form-row">
+      <label>
+        Full Name *
+        <input type="text" name="Full Name" required>
+      </label>
+
+      <label>
+        Phone Number *
+        <input type="tel" name="Phone Number" required>
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        Email Address *
+        <input type="email" name="Email Address" required>
+      </label>
+
+      <label>
+        Event Date
+        <input type="date" name="Event Date">
+      </label>
+    </div>
+
+    <label>
+      Event Location
+      <input type="text" name="Event Location" placeholder="City, area, or venue">
+    </label>
+
+    <label>
+      Service Type *
+      <select name="Service Type" required>
+        <option value="">Select a service</option>
+        <option value="Bridal Henna">Bridal Henna</option>
+        <option value="Party / Guest Henna">Party / Guest Henna</option>
+        <option value="Event Henna Booth">Event Henna Booth</option>
+        <option value="Custom Design">Custom Design</option>
+        <option value="Not Sure Yet">Not Sure Yet</option>
+      </select>
+    </label>
+
+    <label>
+      Number of Guests
+      <input type="number" name="Number of Guests" min="1" placeholder="Example: 5">
+    </label>
+
+    <label>
+      Message / Design Details
+      <textarea name="Message" rows="5" placeholder="Tell me about the occasion, timing, design style, and any reference ideas."></textarea>
+    </label>
+
+    <button class="button primary" type="submit">Submit Booking Request</button>
+  </form>
+
+  <div class="email-contact">
+    <p>For general questions or portfolio requests, email:</p>
+    <a href="mailto:hennabyjm786@gmail.com?subject=Henna%20Portfolio%20Request">
+      hennabyjm786@gmail.com
+    </a>
+  </div>
+
+  <p class="small-note">
+    Your information will only be used to respond to your henna booking request.
+  </p>
+</section>
   </main>
 
   <footer class="footer">
