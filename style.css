@@ -346,3 +346,10 @@ li { margin: 10px 0; }
 .email-contact a:hover {
   color: var(--deep);
 }
+@media (max-width: 700px) {
+  .gallery-grid img:nth-child(5) {
+    grid-column: auto;
+    justify-self: stretch;
+    max-width: 100%;
+  }
+}
