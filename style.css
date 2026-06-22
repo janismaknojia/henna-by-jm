@@ -324,3 +324,25 @@ li { margin: 10px 0; }
   justify-self: center;
   max-width: 340px;
 }
+/* WORK EMAIL CONTACT */
+
+.email-contact {
+  margin: 28px auto 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.email-contact p {
+  margin-bottom: 8px;
+}
+
+.email-contact a {
+  color: var(--brown);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(139, 94, 60, 0.35);
+}
+
+.email-contact a:hover {
+  color: var(--deep);
+}
